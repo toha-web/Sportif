@@ -506,7 +506,7 @@ function createCard(prod, flag){
 	rate.className = "card_rate";
 	for(let i = 0; i < prod.rate; i++){
 		const rateStar = document.createElement("img");
-		rateStar.setAttribute("src", "../img/star-yellow.svg");
+		rateStar.setAttribute("src", "/img/star-yellow.svg");
 		rateStar.setAttribute("alt", "Rate");
 		rate.append(rateStar);
 	}
