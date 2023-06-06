@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", () => {
 		}
 		showCatalog(productList, currentPage);
 	}
-	else{
+	if(/*window.location.pathname.includes("index") && */!window.location.pathname.includes("catalog")){
 		showPrewCards();
 	}
 	getCart();
